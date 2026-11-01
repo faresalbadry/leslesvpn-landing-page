@@ -19,12 +19,12 @@ A responsive landing page built with HTML, CSS, and Sass based on the LaslesVPN 
 
 ## Live Demo
 
-Add your deployed website link here.
+https://faresalbadry.github.io/leslesvpn-landing-page/
 
 ## GitHub Repository
 
-Add your repository link here.
+https://github.com/faresalbadry/leslesvpn-landing-page
 
 ## Author
 
-Your Name
+Fares Al Badry
