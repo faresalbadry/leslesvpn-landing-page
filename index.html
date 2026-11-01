@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>LaslesVPN</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar container" data-testid="navbar">
+      <div class="logo">
+        <img src="./images/Logo.png" alt="LaslesVPN Logo">
+        <span><strong>Lasles</strong>VPN</span>
+      </div>
+
+      <input type="checkbox" id="menu-toggle">
+      <label for="menu-toggle" class="hamburger">☰</label>
+
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#help">Help</a></li>
+      </ul>
+
+      <div class="nav-buttons">
+        <button class="btn-secondary">Sign In</button>
+        <button class="btn-primary-outline">Sign Up</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Hero -->
+    <section
+      id="about"
+      class="hero container"
+      data-testid="hero">
+
+      <div class="hero-content">
+        <h1>
+          Want anything to be easy with
+          <strong>LaslesVPN.</strong>
+        </h1>
+
+        <p>
+          Provide a network for all your needs with ease and
+          fun using LaslesVPN discover interesting features
+          from us.
+        </p>
+
+        <button class="btn-primary">
+          Get Started
+        </button>
+      </div>
+
+      <div class="hero-image">
+        <img
+          src="./images/hero1.jpg"
+          alt="LaslesVPN Hero">
+      </div>
+    </section>
+
+    <!-- Stats -->
+    <section class="stats container" data-testid="stats">
+
+      <div class="stat-item">
+        <h2>90+</h2>
+        <p>Users</p>
+      </div>
+
+      <div class="stat-item">
+        <h2>30+</h2>
+        <p>Locations</p>
+      </div>
+
+      <div class="stat-item">
+        <h2>50+</h2>
+        <p>Servers</p>
+      </div>
+
+    </section>
+
+    <!-- Features -->
+    <section
+      id="features"
+      class="features container"
+      data-testid="features">
+
+      <div class="features-image">
+        <img
+          src="./images/hero2.jpg"
+          alt="Features Illustration">
+      </div>
+
+      <div class="features-content">
+        <h2>We Provide Many Features You Can Use</h2>
+
+        <p>
+          You can explore the features that we provide
+          with fun and have their own functions each feature.
+        </p>
+
+        <ul>
+          <li>Powerful online protection.</li>
+          <li>Internet without borders.</li>
+          <li>Supercharged VPN.</li>
+          <li>No specific time limits.</li>
+        </ul>
+      </div>
+
+    </section>
+
+    <!-- Pricing -->
+    <section
+      id="pricing"
+      class="pricing"
+      data-testid="pricing">
+
+      <div class="container">
+
+        <div class="section-heading">
+          <h2>Choose Your Plan</h2>
+
+          <p>
+            Let's choose the package that is best for you and
+            explore it happily and cheerfully.
+          </p>
+        </div>
+
+        <div class="plans">
+
+          <!-- Plan 1 -->
+          <article class="plan-card" data-testid="plan">
+
+            <img
+              src="./images/Free.jpg"
+              alt="Free Plan">
+
+            <h3>Free Plan</h3>
+
+            <ul>
+              <li>Unlimited Bandwidth</li>
+              <li>Encrypted Connection</li>
+              <li>No Traffic Logs</li>
+              <li>Works on All Devices</li>
+            </ul>
+
+            <h4>Free</h4>
+
+            <button class="btn-select">Select</button>
+
+          </article>
+
+          <!-- Plan 2 -->
+          <article class="plan-card" data-testid="plan">
+
+            <img
+              src="./images/Free.jpg"
+              alt="Standard Plan">
+
+            <h3>Standard Plan</h3>
+
+            <ul>
+              <li>Unlimited Bandwidth</li>
+              <li>Encrypted Connection</li>
+              <li>No Traffic Logs</li>
+              <li>Works on All Devices</li>
+              <li>Connect Anywhere</li>
+            </ul>
+
+            <h4>$9 / mo</h4>
+
+            <button class="btn-select">
+              Select
+            </button>
+
+          </article>
+
+          <!-- Plan 3 -->
+          <article class="plan-card" data-testid="plan">
+
+            <img
+              src="./images/Free.jpg"
+              alt="Premium Plan">
+
+            <h3>Premium Plan</h3>
+
+            <ul>
+              <li>Unlimited Bandwidth</li>
+              <li>Encrypted Connection</li>
+              <li>No Traffic Logs</li>
+              <li>Works on All Devices</li>
+              <li>Connect Anywhere</li>
+              <li>Get New Features</li>
+            </ul>
+
+            <h4>$12 / mo</h4>
+
+            <button class="btn-primary">
+              Select
+            </button>
+
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Global Network -->
+    <section class="network">
+
+      <div class="container">
+
+        <div class="section-heading">
+          <h2>Huge Global Network of Fast VPN</h2>
+
+          <p>
+            See LaslesVPN everywhere to make it easier for
+            you when you move locations.
+          </p>
+        </div>
+
+        <div class="network-map">
+          <img
+            src="./images/Huge Global.svg"
+            alt="Global Network">
+        </div>
+
+        <div class="partners">
+          <img src="./images/netflix.svg" alt="Netflix">
+          <img src="./images/reddit.svg" alt="Reddit">
+          <img src="./images/amazon.svg" alt="Amazon">
+          <img src="./images/discord.svg" alt="Discord">
+          <img src="./images/spotify.svg" alt="Spotify">
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section
+      id="testimonials"
+      class="testimonials"
+      data-testid="testimonials">
+
+      <div class="container">
+
+        <div class="section-heading">
+          <h2>Trusted by Thousands of Happy Customer</h2>
+
+          <p>
+            These are the stories of our customers who have
+            joined us with great pleasure when using this crazy
+            feature.
+          </p>
+        </div>
+
+        <div class="testimonial-cards">
+
+          <article class="testimonial-card" data-testid="testimonial">
+            <img src="./images/customer1.png" alt="Customer">
+            <h3>Viezh Robert</h3>
+            <span>4.5 ★</span>
+            <p>
+              “Wow... I am very happy to use this VPN.”
+            </p>
+          </article>
+
+          <article class="testimonial-card" data-testid="testimonial">
+            <img src="./images/customer2.png" alt="Customer">
+            <h3>Yessica Christy</h3>
+            <span>4.5 ★</span>
+            <p>
+              “I like it because I like to travel far.”
+            </p>
+          </article>
+
+          <article class="testimonial-card" data-testid="testimonial">
+            <img src="./images/customer3.png" alt="Customer">
+            <h3>Kim Young Jou</h3>
+            <span>4.5 ★</span>
+            <p>
+              “This is very unusual for my business.”
+            </p>
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- Subscribe -->
+    <section class="subscribe" data-testid="subscribe">
+
+      <div class="container subscribe-box">
+
+        <div>
+          <h2>
+            Subscribe Now for Get Special Features!
+          </h2>
+
+          <p>
+            Let's subscribe with us and find the fun.
+          </p>
+        </div>
+
+        <button class="btn-primary">
+          Subscribe Now
+        </button>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer id="help" data-testid="footer">
+
+    <div class="container footer-content">
+
+      <div class="footer-brand">
+
+        <img
+          src="./images/Logo.png"
+          alt="LaslesVPN Logo">
+
+        <p>
+          LaslesVPN is a private virtual network that has
+          unique features and high security.
+        </p>
+
+        <div class="social-icons">
+          <a href="#">Facebook</a>
+          <a href="#">Twitter</a>
+          <a href="#">Instagram</a>
+        </div>
+
+        <p>©2024 LaslesVPN</p>
+
+      </div>
+
+      <div class="footer-links">
+
+        <div>
+          <h3>Product</h3>
+          <ul>
+            <li><a href="#">Download</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Locations</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Engage</h3>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Tutorials</a></li>
+            <li><a href="#">About Us</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Earn Money</h3>
+          <ul>
+            <li><a href="#">Affiliate</a></li>
+            <li><a href="#">Become Partner</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+</body>
+</html>

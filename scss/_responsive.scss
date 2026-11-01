@@ -1,0 +1,49 @@
+@media (max-width: $tablet) {
+
+  .navbar {
+    flex-wrap: wrap;
+    position: relative;
+  }
+
+  .hamburger {
+    display: block;
+    margin-left: auto;
+  }
+
+  .nav-links,
+  .nav-buttons {
+    display: none;
+    width: 100%;
+  }
+
+  #menu-toggle:checked ~ .nav-links {
+    display: flex;
+  }
+
+  #menu-toggle:checked ~ .nav-buttons {
+    display: flex;
+  }
+
+  .hero,
+  .features {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .plans {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: $mobile) {
+
+  .hero h1 {
+    font-size: 32px;
+  }
+
+  .btn-primary,
+  .btn-primary-outline,
+  .btn-select {
+    width: 100%;
+  }
+}
